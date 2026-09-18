@@ -1,0 +1,32 @@
+{
+  "name": "group3_section_d",
+  "version": "1.0.0",
+  "description": "midterm",
+  "keywords": [
+    "group3",
+    "sia",
+    "d",
+    "sectiond",
+    "midterm",
+    "row3"
+  ],
+  "homepage": "https://github.com/matytyyy/group3_section_d#readme",
+  "bugs": {
+    "url": "https://github.com/matytyyy/group3_section_d/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matytyyy/group3_section_d.git"
+  },
+  "license": "ISC",
+  "author": "Group3_section_d",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
