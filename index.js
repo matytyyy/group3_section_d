@@ -11,6 +11,6 @@ app.use('/api/orders', require('./routes/orders.routes'))
 app.use('/api/categories', require('./routes/categories.routes'))
 app.use('/api/notifications', require('./routes/notifications.routes'))
 
-app.listen(4321, () => {
-	console.log('Server is running on http://localhost:4321')
+app.listen(43211, () => {
+	console.log('Server is running on http://localhost:43211')
 })
