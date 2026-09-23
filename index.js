@@ -11,6 +11,19 @@ app.use('/api/orders', require('./routes/orders.routes'))
 app.use('/api/categories', require('./routes/categories.routes'))
 app.use('/api/notifications', require('./routes/notifications.routes'))
 
+app.use((req, res) =>{
+res.status(404).json({
+
+  "success": false,
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "The requested endpoint does not exist on this server."
+  }
+})
+
+})
+
+
 app.listen(43211, () => {
 	console.log('Server is running on http://localhost:43211')
 })
